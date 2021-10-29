@@ -1,0 +1,50 @@
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.nav-link{transition: all 1s;}
+.nav-link:hover{
+    border-bottom: rgb(0, 0, 0) 2px solid;
+}
+.navbar-collapse
+{
+    transition: all 1s;
+}
+.navbar-collapse:hover
+{
+    padding: 20px 0;
+}
+.navbar{
+    opacity:.8;
+    box-shadow: blue 0 0 5px;
+    font-weight: bold;
+}
+.img-pc{
+    margin-top: -170px;
+}
+header{
+    background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+    background-attachment: fixed;
+    height: 500px;
+    
+}
+
+.linear-btn{
+    font-weight: bold;
+    border: none;
+    font-size: 30px;
+    padding: 10px 50px;
+    margin: 50px 50px;
+    background-image: linear-gradient(rgb(26, 203, 209),rgb(38, 0, 255));
+}
+.card-img-top{
+    min-height: 250px;
+    max-height: 250px;
+}
+.card-btn{
+    background-image: linear-gradient(rgb(26, 203, 209),rgb(38, 0, 255));
+
+}
+.card{
+    margin: 20px 0;
+}
